@@ -1,225 +1,169 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
+# Site
+repository: Essoz/Essoz.github.io
+favicon: images/favicon.ico #Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yuxuan Jiang (Matt)
+title: B.E. Junior student at ZJU-UIUC in Computer Engineering
+email: yuxuanj9@illinois.edu
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: Comming Soon
+website_title: Blog #(Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  essoz
+stackoverflow_username: "12889336"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: yuxuan-jiang-a2b11921a
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg #Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  I am Yuxuan Jiang (Matt), a junior student in CompE at ZJU-UIUC institute. Currently my research interest is in distributed systems, high performance, etc.
+
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top
+        # title: [ZJU-UIUC Institute](https://zjui.intl.zju.edu.cn/en)
+        title: ZJU-UIUC Institute
+        sub_title: B.E. in Computer Engineering at both University of Illinois at Urbana-Champaign and Zhejiang University
+        caption: 2019 - 2023
+        # quote: >
+        #   Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          The program is offered by the partnership between Zhejiang University and the University of Illinois at Urbana-Champaign (UIUC). All non-political curriculums and resources are imported from UIUC. Core courses are present by UIUC professors and lectures.
+      - layout: top
+        title: University of Illinois at Urbana-Champaign
+        sub_title: Exchange at UIUC
+        caption: 2022 - 2023
+        description: |
+          The exchange program is offered for ZJU-UIUC students to better explore possibilities in their future careers and to enjoy a much wider range of academic resources.
+  
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: DepFast
+        sub_title: Fail-slow fault tolerance needs programming support
+        caption: 2021
+        link: https://dl.acm.org/doi/10.1145/3458336.3465299 #Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Previously published workshop paper
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          The research is ongoing.
+        description: | # this will include new lines to allow paragraphs
+          My work mainly focused on testing fault-slow tolerance of PolarDB-for-PostgreSQL (PolarDB for short) during 2021 "UIUC Undergraduate Summer Research" program. Future work to be added.
+      
+      - layout: top
+        title: BSP-based Data Replication Processing in Distributed Databases
+        caption: 2021
+        quote: >
+          The research is ongoing.
+        description: | # this will include new lines to allow paragraphs
+          This is a SRTP project that explores applications of BSP algorithms in distributed databases, guided by Klaus-Dieter Schewe.
 
 
+        
+  - title: Awards
+    layout: list
+    content:
+      - layout: top
+        title: Provincial Gold Award
+        sub_title: Internet+ Innovation and Entrepreneurship Competition (Zhejiang Province)
+        caption: 2021
+        description: |
+          "Distributed High Performance Computing" (D-HPC for short).  
+          The project aims to provide highly-available and low-latency computational services in the city by deploying a distributed supercomputer network. 
+          D-HPC supports the construction of "Smart City" and "Industrial Network". It also make user experience better in terms of cloud-based apps, such as cloud-gaming.
+          It also values data-uniqueness and the user's sovereignty of data by integrating the blockchain technology into the network. We also aim to accelerate the age of Web3.0. 
+      - layout: top
+        title: First Prize
+        sub_title: International Concrete Dragon Boat Competition
+        caption: 2020
+        # link: Link to company (optional)
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Designer of the control system.
+      - layout: top
+        title: Second National Prize 
+        sub_title: ChangFeng National Contest in Big Data Analysis and Mining
+        caption: 2021
+        # description: |
+        #   haha         
 
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-## => Site Settings
-##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
-title   : Your Site Title
-description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
 
-## => Language and Timezone
-##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
+sass:
+  sass_dir: _sass
+  style: compressed
 
-## => Author and Social
-##############################
-author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
-  url       :
-  avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
-  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
-  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
-  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
-  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
-  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
-  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
-  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
-
-
-## => GitHub Repository (if the site is hosted by GitHub)
-##############################
-repository: user_name/repo_name
-repository_tree: master
-
-
-## => Paths
-##############################
-paths:
-  root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
-
-
-## => Post
-##############################
-## excerpt
-excerpt_separator: <!--more-->
-
-## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
-
-## TOC
-toc:
-  selectors: # "h1,h2,h3" (default)
-
-
-## => Markdown Enhancements
-##############################
-## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
-
-## Mermaid
-mermaid: # false (default), true
-
-## Chart
-chart: # false (default), true
-
-
-## => Paginate
-##############################
-paginate: 8
-paginate_path: /page:num # don't change this unless for special need
-
-
-## => Sources
-##############################
-sources: # bootcdn (default), unpkg
-
-
-## => Sharing
-##############################
-sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
-
-  ## AddThis
-  addthis:
-    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
-
-
-## => Comments
-##############################
-comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
-
-  ## Disqus
-  disqus:
-    shortname: # the Disqus shortname for the site
-
-  ## Gitalk
-  # please refer to https://github.com/gitalk/gitalk for more info.
-  gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
-
-  ## Valine
-  # please refer to https://valine.js.org/en/ for more info.
-  valine:
-    app_id      : # LeanCloud App id
-    app_key     : # LeanCloud App key
-    placeholder : # Prompt information
-    visitor     : # false (default)
-    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
-
-
-## => Pageview
-##############################
-pageview:
-  provider: false # false (default), "leancloud", "custom"
-
-  ## Leancloud
-  leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
-
-
-## => Search
-##############################
-search:
-  provider: default # "default" (default), false, "google", "custom"
-
-  ## Google Custom Search Engine
-  google:
-    custom_search_engine_id: # Google Custom Search Engine ID
-
-
-## => Analytics
-##############################
-analytics:
-  provider: false # false (default), "google", "custom"
-
-  ## Google Analytics
-  google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
-
-
-## => Build
-##############################
-markdown    : kramdown
-highlighter : rouge
-permalink   : date
-
-exclude:
-  - CHANGELOG.md
-  - HOW_TO_RELEASE.md
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README-*.md
-  - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: article
-      sharing: true
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: true
-      show_subscribe: true
-      pageview: true
-
-
-## => Plugins
-##############################
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
