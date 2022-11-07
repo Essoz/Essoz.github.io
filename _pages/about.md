@@ -2,24 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>yuxuanj9 at illinois dot edu</p>
+    <p>718 Haizhou East Rd</p>
+    <p>Haining, Zhejiang, People's Republic of China</p>
+    
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hello there!
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Yuxuan (Matt) Jiang. I am a senior undergraduate student majoring in Computer Engineering at [Zhejiang University - University of Illinois Urbana-Champaign joint institute](https://zjui.intl.zju.edu.cn/en).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest lies in distributed systems. My vision is to make computing power an accessible infrastructure for everyone, by pushing the efficiency, reliability and security of distributed systems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently working with [Prof. Tianyin Xu](https://tianyin.github.io/) at UIUC and [Prof. Owolabi Legunsen](https://www.cs.cornell.edu/~legunsen/) at Cornell University on software reliability issues in container orchestration systems. I am also working with [Dr. Shilin He](https://shilinhe.github.io) at Microsoft Research Asia on configuration management issues in cloud systems.
+
+Besides research and coding, I enjoy singing (I am a bass singer), mountain biking, making friends and speeding on my skateboard across the campus.
