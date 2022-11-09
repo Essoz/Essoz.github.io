@@ -39,15 +39,6 @@
         - Built an automatic deep-semantic bug finding tool for cloud orchestration operators
         - The project is under submission, so stay tuned for more!
 
-    - title: Microsoft Learn Student Ambassador
-      institution: Microsoft, Beijing, China
-      year: Nov 2021 - Present
-      description:
-        - Having struggled with learning tools for programming, I want to help others to learn programming more efficiently by helping them understand the toolchain better.
-        - Taught basics concepts of linux, git, github, windows subsystem for linux and many more to students in my university (many of them are first time programmers from non-CS majors).
-        - Arranged workshops to help individual students with specific problems they are facing.
-        - Attened and help organized experience-sharing events to share useful suggestions on many topics, including learning, career, and life.
-
     - title: Research Assistant (Remote)
       institution: University of Illinois Urbana-Champaign, IL, USA
       year: May 2021 - Feb 2022
@@ -57,6 +48,26 @@
         - Implemented Role-based fail-slowness injection
         - Found performance bugs in etcd and PolarDB
         - https://github.com/xlab-uiuc/slooo
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Microsoft Learn Student Ambassador
+      institution: Microsoft, Beijing, China
+      year: Nov 2021 - Present
+      description:
+        - Having struggled with learning tools for programming, I want to help others to learn programming more efficiently by helping them understand the toolchain better.
+        - Taught basics concepts of linux, git, github, windows subsystem for linux and many more to students in my university (many of them are first time programmers from non-CS majors). Teaching materials credited to MIT 6.NULL and Microsoft Learn
+        - Arranged workshops to help individual students with specific problems they are facing.
+        - Attended and help organized experience-sharing events to share useful suggestions on many topics, including learning, career, and life.
+    - title: Unimate - Teaching & Learning Assistant
+      institution: Zhejiang University International Business School, Haining, China
+      year: Oct 2021 - Jan 2022
+      description:
+        - Responsible for mentoring international students in the school who cannot come to China due to the pandemic.
+        - Hold TA sessions to help students with their assignments and exams.
+        - Organized bi-weekly events to help students to get to know each other and the school better.
+        - Rated privately as the best TA in the school by students.
 
 - title: Honors and Awards
   type: time_table
