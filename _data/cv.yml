@@ -35,8 +35,8 @@
       institution: University of Illinois Urbana-Champaign, IL, USA
       year: Feb 2022 - Present
       description:
-        - Supervised by Prof. Tianyin Xu at UIUC and Prof. Owolabi Legunsen at Cornell University
-        - Built an automatic deep-semantic bug finding tool for cloud orchestration operators
+        - Working with Prof. Tianyin Xu at UIUC and Prof. Owolabi Legunsen at Cornell University to address correctness issues in cloud management programs
+        - Built an automatic deep-semantic bug finding tool for Kubernetes operators
         - The project is under submission, so stay tuned for more!
 
     - title: Research Assistant (Remote)
