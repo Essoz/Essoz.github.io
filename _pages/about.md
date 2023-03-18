@@ -26,4 +26,4 @@ My research interest lies in the general distributed systems. More specifically,
 
 I am currently an intern at Microsoft Research, working with [Dr. Shilin He](https://shilinhe.github.io) on various cloud reliability topics, such as AIOps and configuration management.I am also working with [Prof. Tianyin Xu](https://tianyin.github.io/) at UIUC and [Prof. Owolabi Legunsen](https://www.cs.cornell.edu/~legunsen/) at Cornell University on software correctness issues in container orchestration systems.
 
-Besides research and coding, I enjoy singing (I am a bass singer), mountain biking, making friends and speeding on my skateboard across the campus.
+Besides research and coding, I enjoy singing, mountain biking, making friends and speeding on my skateboard across the campus.

@@ -3,7 +3,6 @@ layout: page
 permalink: /publications/
 title: publications
 description: My awesome publication list, if I had any :p.
-years: [2023]
 nav: true
 nav_order: 1
 ---
