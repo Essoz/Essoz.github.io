@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>yuxuanj9 at illinois dot edu</p>
+    <p>jyuxuan at umich dot edu</p>
     <p>718 Haizhou East Rd</p>
     <p>Haining, Zhejiang, People's Republic of China</p>
     
