@@ -218,7 +218,6 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-link-attributes
-  - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
 
