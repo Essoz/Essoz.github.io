@@ -18,12 +18,20 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hello there!
+### Research Interests
 
-My name is Yuxuan (Matt) Jiang. I am about to join University of Michigan Ann-Arbor as a Ph.D. student in Computer Science and Engineering. I received my B.E. in Computer Engineering from [Zhejiang University - University of Illinois Urbana-Champaign joint institute](https://zjui.intl.zju.edu.cn/en) in 2023 summer.
+My academic focus is primarily on enhancing the reliability of emerging systems, including but not limited to machine learning platforms and container orchestration frameworks. 
 
-My research interest lies in the general distributed systems. More specifically, I am currently exploring the topics of AIOps, software correctness and low-latency systems for resource disaggregation. My vision is to make computing power an accessible infrastructure for everyone, by pushing the efficiency, reliability and security of distributed systems.
+### Collaborations
 
-I am currently an intern at Microsoft Research, working with [Dr. Shilin He](https://shilinhe.github.io) on various cloud reliability topics related to AIOps. I have also worked with [Prof. Tianyin Xu](https://tianyin.github.io/) at UIUC and [Prof. Owolabi Legunsen](https://www.cs.cornell.edu/~legunsen/) at Cornell University on software correctness issues in container orchestration systems.
+Before joining the University of Michigan, I had the incredible opportunity to collaborate with accomplished researchers in the field. 
 
-Besides research and coding, I enjoy singing, mountain biking, making friends and speeding on my skateboard across the campus.
+- I worked with [Dr. Shilin He](https://shilinhe.github.io) at Microsoft Research Asia, exploring various topics related to cloud reliability and AIOps. 
+
+- Additionally, I've had the privilege of working with [Prof. Tianyin Xu](https://tianyin.github.io/) at the University of Illinois at Urbana-Champaign and [Prof. Owolabi Legunsen](https://www.cs.cornell.edu/~legunsen/) at Cornell University, focusing on software correctness in container orchestration systems.
+
+### Personal Interests
+
+Beyond the world of research and coding, I have a passion for singing and mountain biking. I also love making new friends and skating across campus on my skateboard at breakneck speeds.
+
+Feel free to explore the rest of my site to learn more about my work, or get in touch if you're interested in collaborating. Thank you for visiting!
