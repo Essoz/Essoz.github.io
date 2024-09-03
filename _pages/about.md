@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I'm Yuxuan Jiang, but you can call me Matt. I'm currently a first-year PhD student in Computer Science and Engineering at the University of Michigan, Ann Arbor, where I'm fortunate to be advised by [Prof. Ryan Huang](https://web.eecs.umich.edu/~ryanph/).
+Welcome! I'm Yuxuan Jiang. I'm currently a second-year PhD student in Computer Science and Engineering at the University of Michigan, Ann Arbor, where I'm fortunate to be advised by [Prof. Ryan Huang](https://web.eecs.umich.edu/~ryanph/).
 
 I earned my Bachelor of Engineering degree in Computer Engineering from the [Zhejiang University - University of Illinois Urbana-Champaign Joint Institute](https://zjui.intl.zju.edu.cn/en).
 
