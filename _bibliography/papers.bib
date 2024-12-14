@@ -1,17 +1,45 @@
 ---
 ---
-@inproceedings{actososp23,
-    title={Automatic Testing for Correct Operations of Cloud Systems},
-    author={Gu, Jiawei Tyler and Sun, Xudong and Jiang, Yuxuan and Wang, Chen and Vaziri, Mandana and Legunsen, Owolabi and Xu, Tianyin},
-    booktitle={Proceedings of the 29th ACM Symposium on Operating Systems Principles (SOSP'23), Koblenz, Germany},
-    year={2023},
-    month=Oct
+@inproceedings{10.1145/3600006.3613161,
+author = {Gu, Jiawei Tyler and Sun, Xudong and Zhang, Wentao and Jiang, Yuxuan and Wang, Chen and Vaziri, Mandana and Legunsen, Owolabi and Xu, Tianyin},
+title = {Acto: Automatic End-to-End Testing for Operation Correctness of Cloud System Management},
+year = {2023},
+isbn = {9798400702297},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3600006.3613161},
+doi = {10.1145/3600006.3613161},
+abstract = {Cloud systems are increasingly being managed by operation programs termed operators, which automate tedious, human-based operations. Operators of modern management platforms like Kubernetes, Twine, and ECS implement declarative interfaces based on the state-reconciliation principle. An operation declares a desired system state and the operator automatically reconciles the system to that declared state.Operator correctness is critical, given the impacts on system operations---bugs in operator code put systems in un-desired or error states, with severe consequences. However, validating operator correctness is challenging due to the enormous system-state space and complex operation interface. A correct operator must not only satisfy correctness properties of its own code, but it must also maintain managed systems in desired states. Unfortunately, end-to-end testing of operators significantly falls short.We present Acto, the first automatic end-to-end testing technique for cloud system operators. Acto uses a state-centric approach to test an operator together with a managed system. Acto continuously instructs an operator to reconcile a system to different states and checks if the system successfully reaches those desired states. Acto models operations as state transitions and systematically realizes state-transition sequences to exercise supported operations in different scenarios. Acto's oracles automatically check whether a system's state is as desired. To date, Acto has helped find 56 serious new bugs (42 were confirmed and 30 have been fixed) in eleven Kubernetes operators with few false alarms.},
+booktitle = {Proceedings of the 29th Symposium on Operating Systems Principles},
+pages = {96–112},
+numpages = {17},
+keywords = {kubernetes, operation, system management, cloud, reliability, operation correctness, operator},
+location = {Koblenz, Germany},
+series = {SOSP '23}
 }
 
-@inproceedings{xperticse24,
-  author          = {Jiang, Yuxuan and Zhang, Chaoyun and He, Shilin and Yang, Zhihao and Ma, Minghua and Qin, Si and Kang, Yu and Dang, Yingnong and Rajmohan, Saravan and Lin, Qingwei and Zhang, Dongmei},
-  booktitle       = {Proceedings of the 46th International Conference on Software Engineering (ICSE'24), Lisbon, Portugal},
-  title           = {Xpert: Empowering Incident Management with Query Recommendations via Large Language Models},
-  year            = {2024},
-  month           = {April}
+@inproceedings{10.1145/3597503.3639081,
+author = {Jiang, Yuxuan and Zhang, Chaoyun and He, Shilin and Yang, Zhihao and Ma, Minghua and Qin, Si and Kang, Yu and Dang, Yingnong and Rajmohan, Saravan and Lin, Qingwei and Zhang, Dongmei},
+title = {Xpert: Empowering Incident Management with Query Recommendations via Large Language Models},
+year = {2024},
+isbn = {9798400702174},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597503.3639081},
+doi = {10.1145/3597503.3639081},
+abstract = {Large-scale cloud systems play a pivotal role in modern IT infrastructure. However, incidents occurring within these systems can lead to service disruptions and adversely affect user experience. To swiftly resolve such incidents, on-call engineers depend on crafting domain-specific language (DSL) queries to analyze telemetry data. However, writing these queries can be challenging and time-consuming. This paper presents a thorough empirical study on the utilization of queries of KQL, a DSL employed for incident management in a large-scale cloud management system at Microsoft. The findings obtained underscore the importance and viability of KQL queries recommendation to enhance incident management.Building upon these valuable insights, we introduce Xpert, an end-to-end machine learning framework that automates KQL recommendation process. By leveraging historical incident data and large language models, Xpert generates customized KQL queries tailored to new incidents. Furthermore, Xpert incorporates a novel performance metric called Xcore, enabling a thorough evaluation of query quality from three comprehensive perspectives. We conduct extensive evaluations of Xpert, demonstrating its effectiveness in offline settings. Notably, we deploy Xpert in the real production environment of a large-scale incident management system in Microsoft, validating its efficiency in supporting incident management. To the best of our knowledge, this paper represents the first empirical study of its kind, and Xpert stands as a pioneering DSL query recommendation framework designed for incident management.},
+booktitle = {Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
+articleno = {92},
+numpages = {13},
+keywords = {incident management, query generation, large language model},
+location = {Lisbon, Portugal},
+series = {ICSE '24}
+}
+
+@inproceedings{key,
+  author = {Lu, Ruiming and Lu, Yunchi and Jiang, Yuxuan and Xue Guangtao and Huang, Peng},
+  booktitle = {Proceedings of the 22nd USENIX Symposium on Networked Systems Design and Implementation},
+  title = {One-Size-Fits-None: Understanding and Enhancing Slow Fault Tolerance in Modern Distributed Systems},
+  year = {2025},
+  series = {NSDI'25},
 }
