@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>jyuxuan at umich dot edu</p>
@@ -18,26 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I'm Yuxuan Jiang, a second-year PhD student in Computer Science and Engineering at the University of Michigan, where I'm fortunate to be advised by [Prof. Ryan Huang](https://web.eecs.umich.edu/~ryanph/).
+Welcome! I'm Yuxuan Jiang, a second-year PhD student in Computer Science and Engineering at the University of Michigan, where I'm fortunate to be advised by [Prof. Ryan Huang](https://web.eecs.umich.edu/~ryanph/). Previously, I interned at MSR-Asia and earned my Bachelor of Engineering degree in Computer Engineering from [Zhejiang University](https://www.zju.edu.cn) and [University of Illinois Urbana-Champaign](https://illinois.edu).
 
-I earned my Bachelor of Engineering degree in Computer Engineering from the [Zhejiang University - University of Illinois Urbana-Champaign Joint Institute](https://zjui.intl.zju.edu.cn/en).
-
-### Research Interests
-
-Reliability of emerging systems, e.g., machine learning platforms and container orchestration frameworks. 
-
-### Collaborations
-
-Before joining the University of Michigan, I had the incredible opportunity to collaborate with accomplished researchers in the field. 
-
-- I worked with [Dr. Shilin He](https://shilinhe.github.io) at Microsoft Research Asia, exploring various topics related to cloud reliability and AIOps. 
-
-- Additionally, I've had the privilege of working with [Prof. Tianyin Xu](https://tianyin.github.io/) at the University of Illinois at Urbana-Champaign and [Prof. Owolabi Legunsen](https://www.cs.cornell.edu/~legunsen/) at Cornell University, focusing on software correctness in container orchestration systems.
-
-### Personal Interests
-
-Beyond the world of research and coding, I have a passion for singing and mountain biking.
-I am the president of an Acappella group here at Michigan.
-I also love making new friends and skating across campus on my skateboard at breakneck speeds.
-
-Feel free to explore the rest of my site to learn more about my work, or get in touch if you're interested in collaborating. Thank you for visiting!
+I am interested broadly in Systems Reliability, Systems for Machine Learning, and AIOps. Beyond the world of research and coding, I have a passion for singing and mountain biking. I am the president of an all-Chinese A Cappella group here at Michigan.
