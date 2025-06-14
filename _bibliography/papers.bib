@@ -11,11 +11,16 @@ url = {https://doi.org/10.1145/3600006.3613161},
 doi = {10.1145/3600006.3613161},
 abstract = {Cloud systems are increasingly being managed by operation programs termed operators, which automate tedious, human-based operations. Operators of modern management platforms like Kubernetes, Twine, and ECS implement declarative interfaces based on the state-reconciliation principle. An operation declares a desired system state and the operator automatically reconciles the system to that declared state.Operator correctness is critical, given the impacts on system operations---bugs in operator code put systems in un-desired or error states, with severe consequences. However, validating operator correctness is challenging due to the enormous system-state space and complex operation interface. A correct operator must not only satisfy correctness properties of its own code, but it must also maintain managed systems in desired states. Unfortunately, end-to-end testing of operators significantly falls short.We present Acto, the first automatic end-to-end testing technique for cloud system operators. Acto uses a state-centric approach to test an operator together with a managed system. Acto continuously instructs an operator to reconcile a system to different states and checks if the system successfully reaches those desired states. Acto models operations as state transitions and systematically realizes state-transition sequences to exercise supported operations in different scenarios. Acto's oracles automatically check whether a system's state is as desired. To date, Acto has helped find 56 serious new bugs (42 were confirmed and 30 have been fixed) in eleven Kubernetes operators with few false alarms.},
 booktitle = {Proceedings of the 29th Symposium on Operating Systems Principles},
-pages = {96–112},
+pages = {96-112},
 numpages = {17},
 keywords = {kubernetes, operation, system management, cloud, reliability, operation correctness, operator},
 location = {Koblenz, Germany},
-series = {SOSP '23}
+series = {SOSP '23},
+pdf = {acto.pdf},
+preview = {acto.jpg},
+  bibtex_show = True,
+  code = {https://github.com/xlab-uiuc/acto},
+
 }
 
 @inproceedings{10.1145/3597503.3639081,
@@ -33,7 +38,24 @@ articleno = {92},
 numpages = {13},
 keywords = {incident management, query generation, large language model},
 location = {Lisbon, Portugal},
-series = {ICSE '24}
+series = {ICSE '24},
+pdf = {xpert.pdf},
+preview = {xpert.jpg},
+  bibtex_show = True,
+}
+
+@inproceedings{MLSilentBug2025OSDI,
+  author = {Jiang, Yuxuan and Zhou, Ziming and Xu, Boyu and Liu, Beijie and Xu, Runhui and Huang, Peng},
+  title = {Training with Confidence: Catching Silent Deep Learning Training Bugs with Automated Proactive Checks},
+  booktitle = {Proceedings of the 19th USENIX Conference on Operating Systems Design and Implementation},
+  series = {OSDI '25},
+  month = {July},
+  year = {2025},
+  location = {Boston, MA, USA},
+  pdf = {traincheck-osdi25-preprint.pdf},
+  preview = {traincheck-logo.png},
+  bibtex_show = True,
+  code = {https://github.com/OrderLab/TrainCheck},
 }
 
 @inproceedings{SlowFaultStudy2025NSDI,
@@ -44,14 +66,9 @@ series = {ICSE '24}
   month = {April},
   year = {2025},
   location = {Philadelphia, PA, USA},
+  pdf = {xinda.pdf},
+  preview = {slow-faults.png},
+  bibtex_show = True,
+  code = {https://github.com/OrderLab/xinda},
 }
 
-@inproceedings{MLSilentBug2025OSDI,
-  author = {Jiang, Yuxuan and Zhou, Ziming and Xu, Boyu and Liu, Beijie and Xu, Runhui and Huang, Peng},
-  title = {Training with Confidence: Catching Silent DL Training Bugs with Automated Proactive Checks},
-  booktitle = {Proceedings of the 19th USENIX Conference on Operating Systems Design and Implementation},
-  series = {OSDI '25},
-  month = {July},
-  year = {2025},
-  location = {Boston, MA, USA},
-}
