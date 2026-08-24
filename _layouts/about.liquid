@@ -1,80 +1,91 @@
----
-layout: default
----
-<div class="post">
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+  </head>
 
-    <header class="post-header">
-      <h1 class="post-title">
-        {% if site.title == 'blank' %}
-          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-          {{ site.last_name }}
-        {% else %}
-          {{ site.title }}
-        {% endif %}
-      </h1>
-      <p class="desc">{{ page.subtitle }}</p>
+  <body class="home-page">
+    <a class="home-skip-link" href="#main-content">Skip to content</a>
+
+    <header class="home-header">
+      <div class="home-header__rule" aria-hidden="true"></div>
+      <div class="home-frame home-header__inner">
+        <a class="home-name" href="{{ '/' | relative_url }}" aria-label="Yuxuan Jiang, home" aria-current="page">Yuxuan Jiang</a>
+      </div>
     </header>
 
-    <div class="clearfix">{{ content }}</div>
+    <main id="main-content" class="home-frame home-main" tabindex="-1">
+      <div class="home-layout">
+        {% assign profile_image_path = page.profile.image | prepend: '/assets/img/' %}
+        <img
+          class="home-portrait"
+          src="{{ profile_image_path | relative_url | bust_file_cache }}"
+          alt="{{ page.profile.alt }}"
+          width="705"
+          height="705"
+          fetchpriority="high"
+        >
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+        <section class="home-hero" aria-labelledby="home-introduction">
+          <div class="home-hero__copy">
+            <h1 id="home-introduction">{{ page.statement }}</h1>
+          </div>
+        </section>
 
-    <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+        <aside class="home-profile-rail" aria-label="Profile and links">
+          <p class="home-role">
+            <span>{{ page.role }}</span>
+            <a href="{{ page.affiliation_url }}">{{ page.affiliation }}</a>
+          </p>
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
+          <div class="home-profile-rail__rule" aria-hidden="true"></div>
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+          <nav class="home-profile-rail__nav" aria-label="Primary navigation">
+            <ul>
+              {% for item in page.home_nav %}
+                <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+              {% endfor %}
+            </ul>
+          </nav>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+          <nav class="home-profile-rail__profiles" aria-label="Contact and profiles">
+            <a href="mailto:{{ page.email | encode_email }}">E-mail</a>
+            <a href="{{ page.scholar_url }}" rel="me">Google Scholar</a>
+            <a href="{{ page.github_url }}" rel="me">GitHub</a>
+          </nav>
+        </aside>
+
+        <div class="home-content">
+          <section class="home-research" aria-labelledby="lead-research-heading">
+            <h2 id="lead-research-heading">Lead-authored research</h2>
+            <div class="home-research__list">
+              {% for work in page.lead_research %}
+                <article class="home-research__item">
+                  <p class="home-research__meta">{{ work.year }} <span aria-hidden="true">·</span> {{ work.venue }}</p>
+                  <div class="home-research__copy">
+                    <h3><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h3>
+                    <p>{{ work.description }}</p>
+                  </div>
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+
+          <section class="home-recent" aria-labelledby="recent-heading">
+            <h2 id="recent-heading">Recent</h2>
+            <ul>
+              {% for item in page.recent %}
+                <li><time datetime="{{ item.datetime }}">{{ item.date }}</time><span aria-hidden="true">·</span><span>{{ item.text }}</span></li>
+              {% endfor %}
+            </ul>
+            <p class="home-recent__advisor">Advised by <a href="{{ page.advisor_url }}">{{ page.advisor_name }}</a>.</p>
+          </section>
+        </div>
       </div>
-    {% endif %}
+    </main>
 
-    {% if site.newsletter.enabled and site.footer_fixed %}
-      {% include scripts/newsletter.liquid center=true %}
-    {% endif %}
-  </article>
-</div>
+    <footer class="home-frame home-footer">
+      <p class="home-footer__copyright">&copy; {{ site.time | date: '%Y' }} Yuxuan Jiang</p>
+    </footer>
+  </body>
+</html>
