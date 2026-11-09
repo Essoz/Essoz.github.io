@@ -24,6 +24,11 @@ home_nav:
 
 lead_research:
   - year: 2026
+    venue: NeurIPS
+    title: DistDebug-Bench
+    description: Can LLM agents pinpoint the code behind 120 real bugs in 11 distributed systems?
+    url: "/publications/#jiang2026distdebugbench"
+  - year: 2026
     venue: FSE
     title: Comfey
     description: Agentic triage for production cloud incidents · co-first author
