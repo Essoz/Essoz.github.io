@@ -43,7 +43,9 @@
           <nav class="home-profile-rail__nav" aria-label="Primary navigation">
             <ul>
               {% for item in page.home_nav %}
-                <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+                <li>
+                  <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+                </li>
               {% endfor %}
             </ul>
           </nav>
@@ -61,9 +63,14 @@
             <div class="home-research__list">
               {% for work in page.lead_research %}
                 <article class="home-research__item">
-                  <p class="home-research__meta">{{ work.year }} <span aria-hidden="true">·</span> {{ work.venue }}</p>
+                  <p class="home-research__meta">
+                    {{ work.year }}
+                    <span aria-hidden="true">·</span> {{ work.venue }}
+                  </p>
                   <div class="home-research__copy">
-                    <h3><a href="{{ work.url | relative_url }}">{{ work.title }}</a></h3>
+                    <h3>
+                      <a href="{{ work.url | relative_url }}">{{ work.title }}</a>
+                    </h3>
                     <p>{{ work.description }}</p>
                   </div>
                 </article>
@@ -75,10 +82,14 @@
             <h2 id="recent-heading">Recent</h2>
             <ul>
               {% for item in page.recent %}
-                <li><time datetime="{{ item.datetime }}">{{ item.date }}</time><span aria-hidden="true">·</span><span>{{ item.text }}</span></li>
+                <li>
+                  <time datetime="{{ item.datetime }}">{{ item.date }}</time><span aria-hidden="true">·</span><span>{{ item.text }}</span>
+                </li>
               {% endfor %}
             </ul>
-            <p class="home-recent__advisor">Advised by <a href="{{ page.advisor_url }}">{{ page.advisor_name }}</a>.</p>
+            <p class="home-recent__advisor">
+              Advised by <a href="{{ page.advisor_url }}">{{ page.advisor_name }}</a>.
+            </p>
           </section>
         </div>
       </div>

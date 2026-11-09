@@ -44,7 +44,7 @@
       year: May 2021 - Feb 2022
       description:
         - Supervised by Prof. Tianyin Xu at UIUC
-        - Wrote scripts to automatically setup test environment on Azure Cloud 
+        - Wrote scripts to automatically setup test environment on Azure Cloud
         - Implemented Role-based fail-slowness injection
         - Found performance bugs in etcd and PolarDB
         - https://github.com/xlab-uiuc/slooo
@@ -76,11 +76,11 @@
       items:
         - Outstanding undergraduate student, Zhejiang University
     - year: 2021
-      items: 
-        - Golden Award of the 2021 Internet+ business plan competition for the project "City Brain as Distributed HPC Centers" 
+      items:
+        - Golden Award of the 2021 Internet+ business plan competition for the project "City Brain as Distributed HPC Centers"
         - Outstanding undergraduate student, Zhejiang University
     - year: 2020
-      items: 
+      items:
         - scholarship for outstanding students (top 10% GPA), Zhejiang University
         - Dean's List, Zhejiang University
         - Outstanding undergraduate student, Zhejiang University

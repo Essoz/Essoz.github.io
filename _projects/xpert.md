@@ -13,6 +13,7 @@ When a production incident fires, engineers write domain-specific language (DSL)
 **Xpert** automates KQL query recommendation for incident management. Starting from an empirical study of query usage patterns in a large-scale Microsoft cloud system, we built an end-to-end ML framework that leverages LLMs and historical incident data to generate tailored queries for new incidents.
 
 Key contributions:
+
 - Empirical study of KQL query usage across thousands of real production incidents
 - Xpert framework: retrieval-augmented LLM pipeline for query generation
 - Xcore: a novel metric for evaluating query quality across correctness, specificity, and efficiency

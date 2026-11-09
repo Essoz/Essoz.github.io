@@ -13,19 +13,13 @@ An “always exploring” mindset values curiosity over commitment. It prioritiz
 
 This mindset has real strengths.
 
-The good:
-	1.	It exposes you to unexpected opportunities that structured plans often miss.
-	2.	It keeps curiosity alive and encourages intellectual humility.
-	3.	It helps prevent getting stuck in narrow thinking or overfitting to early assumptions.
+The good: 1. It exposes you to unexpected opportunities that structured plans often miss. 2. It keeps curiosity alive and encourages intellectual humility. 3. It helps prevent getting stuck in narrow thinking or overfitting to early assumptions.
 
 In many ways, this mindset is rewarded early on. It aligns well with learning, research, and environments where the cost of being wrong is low and exploration itself is the objective.
 
 But the same mindset has limits.
 
-The tricky parts:
-	1.	It can dilute focus when concrete results or decisions are required.
-	2.	Accumulating too many perspectives can create confusion rather than clarity.
-	3.	It makes it harder to form strong convictions and act decisively.
+The tricky parts: 1. It can dilute focus when concrete results or decisions are required. 2. Accumulating too many perspectives can create confusion rather than clarity. 3. It makes it harder to form strong convictions and act decisively.
 
 I naturally lean toward exploration, and that tendency is part of what led me to a PhD. Over time, it has expanded who I am: a researcher, a singer, a club leader, and someone curious about law, ethics, and many other domains.
 

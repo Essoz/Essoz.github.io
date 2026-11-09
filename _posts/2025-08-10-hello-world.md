@@ -13,4 +13,4 @@ During my research internship this summer, I found myself facing a familiar pres
 
 The expected output was a research paper. While the research itself was interesting, it felt incomplete—we had insights but limited supporting data, and the formal analysis was still developing. Writing felt premature and artificial. After a week of trying, I found myself resistant to continuing in this direction.
 
-This experience highlighted something I value: the satisfaction that comes from diving deep into meaningful problems and engaging with genuine intellectual challenges. Sometimes the process of understanding matters more than the immediate output. 
+This experience highlighted something I value: the satisfaction that comes from diving deep into meaningful problems and engaging with genuine intellectual challenges. Sometimes the process of understanding matters more than the immediate output.

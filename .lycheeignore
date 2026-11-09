@@ -1,2 +1,7 @@
 linkedin.com
 reddit.com
+
+# Verified 2026-11-09: these live pages reject automated requests with HTTP 403.
+# Match only the university homepage and this specific Scholar profile.
+^https://umich\.edu/?$
+^https://scholar\.google\.com/citations\?user=7Kh7G2AAAAAJ$

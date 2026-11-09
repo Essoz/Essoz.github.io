@@ -13,6 +13,7 @@ When production incidents occur in large-scale cloud systems, on-call engineers 
 **Comfey** is an agentic framework that automates incident triage. It uses LLM-powered agents that dynamically query telemetry data, consult historical incident records, and follow structured reasoning steps to identify likely root causes and surface actionable next steps for engineers.
 
 Key contributions:
+
 - An agent architecture that decomposes triage into sub-tasks (symptom analysis, hypothesis generation, evidence gathering)
 - Integration with live production telemetry and incident history at Microsoft scale
 - Evaluation against real incidents demonstrating improved triage accuracy and reduced time-to-mitigate
